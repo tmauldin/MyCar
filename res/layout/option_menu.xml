@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/shutdown"
+        android:title="@string/shutdown"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+    <item android:id="@+id/restart"
+        android:title="@string/restart"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+</menu>

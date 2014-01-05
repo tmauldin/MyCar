@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyCar</string>
+    <string name="shutdown">Shut Down Pis</string>
+    <string name="restart">Restart Stream</string>
+</resources>

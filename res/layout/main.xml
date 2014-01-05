@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_gravity="center">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:text="Current Speed: "
+                android:layout_gravity="left|center_vertical"
+                android:textSize="30sp"
+                android:layout_column="0"
+                android:id="@+id/currentSpeed"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Speed Limit: "
+                android:textSize="30sp"
+                android:layout_column="1"
+                android:id="@+id/currentSpeedLimit"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <com.camera.simplemjpeg.MjpegView
+                    android:layout_width="500dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/videoViewLeft" android:layout_column="0" android:layout_marginRight="10dp"/>
+            <!--<com.camera.simplemjpeg.MjpegView-->
+                    <!--android:layout_width="500dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/videoViewRight" android:layout_column="1"/>-->
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+
